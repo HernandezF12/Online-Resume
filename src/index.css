@@ -1,0 +1,16 @@
+.hazard {
+    font-size: x-large;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+};
+
+.title {
+    flex-direction: column;
+    display: flex;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+};

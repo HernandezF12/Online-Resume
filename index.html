@@ -20,10 +20,10 @@
   <body>
     <article>
       <!--This is the header part-->
+      <div class="pfp">
+        <img src="./src/images/pfp.JPG" alt="Personal Image" width="300px" >
+      </div>
       <header class="hazard">
-        <div class="pfp">
-          <img src="./src/images/pfp.JPG" alt="Personal Image" width="300px" >
-        </div>
         <div>
           <h1>Felipe's Resume</h1>
         </div>
@@ -39,29 +39,25 @@
       </header>
     </article>
     <main>
-      <!--This container has the about me section, the skills section and the cat gif-->
+      <!--This container has the about me section, the skills section-->
       <div class="container">
         <div class="aboutMeContent">
+          <div class="ghost-one">
+          <img id="ghost-one"  src="./src/images/ghost1.jpeg" width="60%" height="auto" alt="First Ghost Picture ; second pfp">
+          </div>
           <h2 id="aboutMe">
             <a href="#aboutMe">About Me</a>
           </h2>
+          <div class="aboutMeParagraph">
           <p>
-            A Passionate software engineer with the eagerness and tenacity to
-            continue to gain knowledge and experience.
-          </p>
-          <p>
-            Currently a student engineer within the Thinkful software engineer
-            program.
-          </p>
-          <p>
-            Proud United Sates Veteran with 6 amazing years of service giving me
+            Felipe Hernandez is a passionate software engineer with the eagerness and tenacity to
+            continue to gain knowledge and experience. Currently a student engineer within the Thinkful software engineer
+            program.  Proud United Sates Veteran with 6 amazing years of service giving me
             experience working in team settings and also helping me acknowledge the idea that employees
-            can be productive no matter when or where they perform their work.
-          </p>
-          <p>
-            Seeking an Entry Level Software Engineer position within Javascript,
+            can be productive no matter when or where they perform their work. Seeking an Entry Level Software Engineer position within Javascript,
             React.js, HTML or CSS.
           </p>
+          </div>
         </div>
         <div class="skillsContent">
           <h2 id="skills">
@@ -80,7 +76,7 @@
           </ul>
         </div>
       </div>
-      <!-- This section content holds the previous employment information-->
+      <!-- This section content holds the previous employment information and the cat gif-->
       <div class="section-content">
         <h2 id="pastEmployment">
           <a href="#pastEmployment">Previous Employment</a>
@@ -155,7 +151,10 @@
           </ul>
         </div>
         <br />
-        <div class="job">
+        <!-- removing this job as it doesn't really contribute towards a job that im trying to attain
+          but I will keep it here just in case I would like to place it back in the future. 
+          
+          <div class="job">
           <h3>Six Flags</h3>
           <h4>Food Service Attendant -- Apr 2014 - Aug 2014</h4>
           <p>Work Responsibilities:</p>
@@ -169,11 +168,12 @@
             <li>•Resolving customer issues with service provided</li>
           </ul>
         </div>
+      -->
         <div class="image">
           <img src="./src/images/working_hard.gif" alt="Cat working" />
         </div>
         </div>
-      <br />
+      <br /> 
      <!-- this line of code was written for when I enter my portfolio code onto the website including a calculator and a mini game <h2 id="portfolio"> <a href="#portfolio"></a> </h2> -->
     </main>
     <!-- This is the footer where my socials are at.-->

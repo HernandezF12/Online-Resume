@@ -6,6 +6,7 @@
 
 body {
   background-color: #b24bf3;
+  font-size: large;
 }
 
 .pfp {
@@ -29,8 +30,6 @@ p {
   padding: 10px;
 }
 
-
-
 .section-content {
   display: block;
   text-align: center;
@@ -40,6 +39,9 @@ p {
   float: center;
   color: white;
   text-align: center;
+}
+i{
+  font-size: x-large;
 }
 
 ul {

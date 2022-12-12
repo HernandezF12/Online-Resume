@@ -11,6 +11,7 @@ body {
 
 .pfp {
  clip-path: circle(25%);
+ vertical-align: middle;
 }
 
 .hazard {
@@ -19,7 +20,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   background-color: #d7a1f9;
-  width: 100%;
+  width:auto;
 }
 
 h2,
@@ -60,13 +61,22 @@ ul {
   text-align: center;
 }
 
+.aboutMeContent p {
+  padding-left: 20%;
+  padding-right: 20%;
+}
 footer {
   background-color: #d7a1f9;
   align-items: center;
   display: flex;
   justify-content: center;
+  width: auto;
 }
-
+.image{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* the following is for styling links */
 a:hover {
   color: green;
@@ -83,7 +93,7 @@ a:active {
 
 /* the following will be for mobile devices*/
 
-@media all and (min-width: 400px) {
+@media all and (min-width: 200px) {
     .hazard {
         text-align: center;     
     }
@@ -103,4 +113,13 @@ a:active {
     .pfp{
         align-items: baseline;
     }
+}
+
+@media screen and (max-width: 280px) {
+  .image {
+    display: none;
+  }
+  .pfp {
+    display: none;
+  }
 }

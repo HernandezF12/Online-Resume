@@ -1,161 +1,167 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Felipe's Resume</title>
-    <meta name="description" content="Resume" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
 
-  <body>
-    <article>
-      <!--This is the header part-->
-      <header class="hazard">
-        <div class="pfp">
-          <img src="./src/images/pfp.JPG" alt="Personal Image" width="300px" >
-        </div>
-        <div>
-          <h1>Felipe's Resume</h1>
-        </div>
-        <nav>
-          <a href="#aboutMe">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#pastEmployment">Previous Employment</a>
-          <!-- This wilo be for when I start adding things to my portfolio on personal time a href="#portfolio">Portfolio</a> -->
-          <a href="#socials">Socials</a>
-          <!-- going to take this off for now. shows too much PII will remove and update with resume that doesn't have as much. <a target="_blank" href="./resources/SEResume 2.html"> My Resume</a> -->
-          </a>
-        </nav>
-      </header>
-    </article>
-    <main>
-      <!--This container has the about me section, the skills section and the cat gif-->
-      <div class="container">
-        <div class="aboutMeContent">
-          <h2 id="aboutMe">
-            <a href="#aboutMe">About Me</a>
-          </h2>
-          <p>
-            A Passionate software engineer with the eagerness and tenacity to
-            continue to gain knowledge and experience.
-          </p>
-          <p>
-            Currently a student engineer within the Thinkful software engineer
-            program.
-          </p>
-          <p>
-            Proud United Sates Veteran with 6 amazing years of service giving me
-            experience working in team settings and also helping me acknowledge the idea that employees
-            can be productive no matter when or where they perform their work.
-          </p>
-          <p>
-            Seeking an Entry Level Software Engineer position within Javascript,
-            React.js, HTML or CSS.
-          </p>
-        </div>
-        <div class="skillsContent">
-          <h2 id="skills">
-            <a href="#skills">Skills</a>
-          </h2>
-          <ul>
-            <li>Javascript<i class="fa-brands fa-square-js"></i></li>
-            <li><i class="fa-brands fa-html5"></i>HTML</li>
-            <li>CSS<i class="fa-regular fa-solid fa-paint-roller"></i></li>
-            <li><i class="fa-brands fa-js"></i>React.js </React></li>
-            <li>Team Work<i class="fa-solid fa-people-group"></i></li>
-            <li><i class="fa-solid fa-timeline"></i>Time Management</li>
-            <li>Dependability<i class="fa-regular fa-handshake"></i></li>
-            <li><i class="fa-regular fa-clock"></i>Patience</li>
-            <li>Adaptability<i class="fa-solid fa-circle-nodes"></i></li>
-          </ul>
-        </div>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Felipe's Resume</title>
+  <meta name="description" content="Resume" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <article>
+    <!--This is the header part-->
+    <header class="hazard">
+      <div class="pfp">
+        <img src="./src/images/pfp.JPG" alt="Personal Image" width="300px">
       </div>
-      <!-- This section content holds the previous employment information-->
-      <div class="section-content">
-        <h2 id="pastEmployment">
-          <a href="#pastEmployment">Previous Employment</a>
+      <div>
+        <h1>Felipe's Resume</h1>
+      </div>
+      <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#pastEmployment">Previous Employment</a>
+        <!-- This wilo be for when I start adding things to my portfolio on personal time a href="#portfolio">Portfolio</a> -->
+        <a href="#socials">Socials</a>
+        <!-- going to take this off for now. shows too much PII will remove and update with resume that doesn't have as much. <a target="_blank" href="./resources/SEResume 2.html"> My Resume</a> -->
+        </a>
+      </nav>
+    </header>
+  </article>
+  <main>
+    <!--This container has the about me section, the skills section and the cat gif-->
+    <div class="container">
+      <!--This div holds the background music section.-->
+      <div class="audioContainer">
+        <audio controls loop autoplay>
+          <source src="./src/resources/Nocturne Op. 55 No. 1 - Chopin.mp4" type="audio/ogg">
+          <source src="./src/resources/Nocturne Op. 55 No. 1 - Chopin.mp4" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+      </div>
+      <div class="aboutMeContent">
+        <h2 id="aboutMe">
+          <a href="#aboutMe">About Me</a>
         </h2>
-        <div class="job">
-          <h3>US Navy Gunners-Mate Second Class (CG-65)</h3>
-          <h4>
-            Vertical Launching System Co-Lead Technician-- Feb 2019 - Jun 2022
-          </h4>
-          <p>Logistics and Diagnostic Supervisor</p>
-          <ul>
-            <li>
-              • First-hand experience with electrical and mechanical systems
-              reparations
-            </li>
-            <li>
-              • Immediate involvement in logistics requisition and handling
-            </li>
-            <li>• Supervision over ship electrical safety</li>
-          </ul>
-        </div>
-        <br />
-        <div class="job">
-          <h3>US Navy Gunners-Mate Third Class (CG-70)</h3>
-          <h4>Workshop Lead Armourer (CG-70)-- Feb 2016 - Feb 2019</h4>
-          <p>Mechanical Systems Technician</p>
-          <ul>
-            <li>
-              • Over 250 man-hours on correcting discrepancies on mechanical
-              systems
-            </li>
-            <li>• Direct Handling on an overhaul of over 159,000 units.</li>
-            <li>
-              • Successfully restored and maintained all Mechanical systems
-              daily ensuring a 100% success rate on all certifications.
-            </li>
-            <li>
-              • Successfully held over 60 training's for his peers and was the
-              instructor responsible for the high-level knowledge and overall
-              comprehension of the systems and mission.
-            </li>
-          </ul>
-        </div>
-        <br />
-        <div class="job">
-          <h3>Fiesta Mart, Inc</h3>
-          <h4>Service Cashier-- Feb 2015 - Aug 2015</h4>
-          <p>
-            Was responsible for processing cash, debit, credit and check
-            transactions using a point-of-sale system in a food mart
-            environment.
-          </p>
-          <p>Duties include:</p>
-          <ul>
-            <li>•Balancing the cash register</li>
-            <li>•Recording purchases</li>
-            <li>•Processing returns</li>
-            <li>-•Interacting with customers</li>
-          </ul>
-        </div>
-        <br />
-        <div class="job">
-          <h3>Abercrombie & Fitch Co.</h3>
-          <h4>Stock Associate-- Sep 2014 - Feb 2015</h4>
-          <p>
-            Worked as a flexible associate with responsibilities consisting of:
-          </p>
-          <ul>
-            <li>•Work consisted of restocking merchandise</li>
-            <li>•Face to face interactions with customers</li>
-            <li>•Cashiering and working in a team setting.</li>
-          </ul>
-        </div>
-        <br />
-        <!-- removing this job as it doesn't really contribute towards a job that im trying to attain
+        <p>
+          A Passionate software engineer with the eagerness and tenacity to
+          continue to gain knowledge and experience.
+        </p>
+        <p>
+          Currently a student engineer within the Thinkful software engineer
+          program.
+        </p>
+        <p>
+          Proud United Sates Veteran with 6 amazing years of service giving me
+          experience working in team settings and also helping me acknowledge the idea that employees
+          can be productive no matter when or where they perform their work.
+        </p>
+        <p>
+          Seeking an Entry Level Software Engineer position within Javascript,
+          React.js, HTML or CSS.
+        </p>
+      </div>
+      <div class="skillsContent">
+        <h2 id="skills">
+          <a href="#skills">Skills</a>
+        </h2>
+        <ul>
+          <li>Javascript<i class="fa-brands fa-square-js"></i></li>
+          <li><i class="fa-brands fa-html5"></i>HTML</li>
+          <li>CSS<i class="fa-regular fa-solid fa-paint-roller"></i></li>
+          <li><i class="fa-brands fa-js"></i>React.js </React>
+          </li>
+          <li>Team Work<i class="fa-solid fa-people-group"></i></li>
+          <li><i class="fa-solid fa-timeline"></i>Time Management</li>
+          <li>Dependability<i class="fa-regular fa-handshake"></i></li>
+          <li><i class="fa-regular fa-clock"></i>Patience</li>
+          <li>Adaptability<i class="fa-solid fa-circle-nodes"></i></li>
+        </ul>
+      </div>
+    </div>
+    <!-- This section content holds the previous employment information-->
+    <div class="section-content">
+      <h2 id="pastEmployment">
+        <a href="#pastEmployment">Previous Employment</a>
+      </h2>
+      <div class="job">
+        <h3>US Navy Gunners-Mate Second Class (CG-65)</h3>
+        <h4>
+          Vertical Launching System Co-Lead Technician-- Feb 2019 - Jun 2022
+        </h4>
+        <p>Logistics and Diagnostic Supervisor</p>
+        <ul>
+          <li>
+            • First-hand experience with electrical and mechanical systems
+            reparations
+          </li>
+          <li>
+            • Immediate involvement in logistics requisition and handling
+          </li>
+          <li>• Supervision over ship electrical safety</li>
+        </ul>
+      </div>
+      <br />
+      <div class="job">
+        <h3>US Navy Gunners-Mate Third Class (CG-70)</h3>
+        <h4>Workshop Lead Armourer (CG-70)-- Feb 2016 - Feb 2019</h4>
+        <p>Mechanical Systems Technician</p>
+        <ul>
+          <li>
+            • Over 250 man-hours on correcting discrepancies on mechanical
+            systems
+          </li>
+          <li>• Direct Handling on an overhaul of over 159,000 units.</li>
+          <li>
+            • Successfully restored and maintained all Mechanical systems
+            daily ensuring a 100% success rate on all certifications.
+          </li>
+          <li>
+            • Successfully held over 60 training's for his peers and was the
+            instructor responsible for the high-level knowledge and overall
+            comprehension of the systems and mission.
+          </li>
+        </ul>
+      </div>
+      <br />
+      <div class="job">
+        <h3>Fiesta Mart, Inc</h3>
+        <h4>Service Cashier-- Feb 2015 - Aug 2015</h4>
+        <p>
+          Was responsible for processing cash, debit, credit and check
+          transactions using a point-of-sale system in a food mart
+          environment.
+        </p>
+        <p>Duties include:</p>
+        <ul>
+          <li>•Balancing the cash register</li>
+          <li>•Recording purchases</li>
+          <li>•Processing returns</li>
+          <li>-•Interacting with customers</li>
+        </ul>
+      </div>
+      <br />
+      <div class="job">
+        <h3>Abercrombie & Fitch Co.</h3>
+        <h4>Stock Associate-- Sep 2014 - Feb 2015</h4>
+        <p>
+          Worked as a flexible associate with responsibilities consisting of:
+        </p>
+        <ul>
+          <li>•Work consisted of restocking merchandise</li>
+          <li>•Face to face interactions with customers</li>
+          <li>•Cashiering and working in a team setting.</li>
+        </ul>
+      </div>
+      <br />
+      <!-- removing this job as it doesn't really contribute towards a job that im trying to attain
           but I will keep it here just in case I would like to place it back in the future.         <div class="job">
           <h3>Six Flags</h3>
           <h4>Food Service Attendant -- Apr 2014 - Aug 2014</h4>
@@ -174,26 +180,25 @@
       <div class="image">
         <img src="./src/images/working_hard.gif" alt="Cat working" />
       </div>
-        </div>
-      <br />
-     <!-- this line of code was written for when I enter my portfolio code onto the website including a calculator and a mini game <h2 id="portfolio"> <a href="#portfolio"></a> </h2> -->
-    </main>
-    <!-- This is the footer where my socials are at.-->
-    <footer id="socials">
-      <a href="#socials"></a>
-      <div class="socials">
-          <a target="_blank" href="https://github.com/HernandezF12">
-            <i class="fab fa-github"></i>
-          </a>
-          <a
-            target="_blank" href="https://www.facebook.com/profile.php?id=100077409050279">
-            <i class="fab fa-facebook"></i>
-        </a>
-          <a
-            target="_blank" href="https://www.linkedin.com/in/hernandez-felipe/">
-            <i class="fab fa-linkedin"></i>
-          </a>
-      </div>
-    </footer>
-  </body>
+    </div>
+    <br />
+    <!-- this line of code was written for when I enter my portfolio code onto the website including a calculator and a mini game <h2 id="portfolio"> <a href="#portfolio"></a> </h2> -->
+  </main>
+  <!-- This is the footer where my socials are at.-->
+  <footer id="socials">
+    <a href="#socials"></a>
+    <div class="socials">
+      <a target="_blank" href="https://github.com/HernandezF12">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="_blank" href="https://www.facebook.com/profile.php?id=100077409050279">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/hernandez-felipe/">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </footer>
+</body>
+
 </html>

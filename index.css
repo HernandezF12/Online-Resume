@@ -31,11 +31,18 @@ p {
   padding: 10px;
 }
 
+.audioContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-content {
   display: block;
   text-align: center;
   color: white;
 }
+
 .skillsContent {
   float: center;
   color: white;
@@ -73,9 +80,9 @@ footer {
   width: auto;
 }
 .image{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* the following is for styling links */
 a:hover {

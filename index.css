@@ -31,6 +31,15 @@ p {
   padding: 10px;
 }
 
+td{
+  color: white;
+}
+.portfolioContent{
+  display: flex;
+}
+table{
+  margin-left: auto;
+}
 .audioContainer{
   display: flex;
   justify-content: center;

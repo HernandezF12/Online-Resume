@@ -1,1 +1,0 @@
-/* keeping this empty until I decide to add some javascript and pizaz to the resume */
